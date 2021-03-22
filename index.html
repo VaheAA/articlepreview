@@ -7,13 +7,14 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+<script src="/popup.js"></script>
   
   <title>Frontend Mentor | Article preview component</title>
 
 </head>
 <body>
 <main>
-  <div class="img-div"></div>
+  <div class="img-div"> </div>
   <div class="text">
   <h2> Shift the overall look and feel by adding these wonderful 
   touches to furniture in your home</h2>
@@ -28,8 +29,10 @@
   <span id='name'>Michelle Appleton</span> 
   <span id='date'> 28 Jun 2020</span>
 </div>
-<div class="share-button">
-  <a href=""><img src="/images/icon-share.svg" alt=""></a> 
+<div class="popup" onclick="myFunction()"><div class="share-button">
+  <span class="popuptext" id="myPopup">A Simple Popup!</span>
+  <button><img src="/images/icon-share.svg" alt=""></button> 
+  </div>
   </div>
 </div> 
 </div>
